@@ -1,18 +1,17 @@
 <template>
   <div id="app">
     <Header />
-    <Projects />
+    <router-view />
   </div>
 </template>
 
 <script>
 import Header from '@/components/Header'
-import Projects from '@/components/Projects_list'
+
 export default {
   name: 'App',
   components: {
-    Header, 
-    Projects
+    Header,
   }
 }
 </script>

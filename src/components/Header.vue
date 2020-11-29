@@ -4,9 +4,9 @@
         <h1 class="header__logo">alexandrYun.blog</h1>
         </div>
         <nav class="nav">
-            <p>Home</p>
-            <p>About</p>
-            <p>Contacts</p>
+            <router-link to="/" class="nav__link">Home</router-link>
+            <router-link to="/about" class="nav__link">About</router-link>
+            <router-link to="/contacts" class="nav__link">Contacts</router-link>
         </nav>
     </header>
 </template>
@@ -46,8 +46,16 @@ export default {
 
     .nav {
         display: flex;
-        color: white;
         gap: 15px;
         margin-left: 50px;
+    }
+
+    .nav__link {
+        color: white;
+        text-decoration: none;
+    }
+
+    .nav__link:hover {
+        text-decoration: underline;
     }
 </style>

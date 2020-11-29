@@ -37,6 +37,7 @@ export default {
 <style>
     .projects {
     padding-top: 25px;
+    padding-bottom: 25px;
     font-family: 'Montserrat Alternates', sans-serif;
     display: flex;
     flex-direction: column;
