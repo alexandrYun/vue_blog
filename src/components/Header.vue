@@ -1,7 +1,7 @@
 <template>
     <header class="header">
         <div class="logo-wrapper">
-        <h1 class="header__logo">alexandrYun.blog</h1>
+        <h1 class="header__logo">alexandrYun.projects</h1>
         </div>
         <nav class="nav">
             <router-link to="/" class="nav__link">Home</router-link>
