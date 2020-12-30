@@ -23,7 +23,7 @@ export default {
     data() {
         return {
             projects: [
-                {name: 'Верстка лэндинга Ozon New Skills', link: 'https://github.com/alexandrYun/landing_ozon/tree/finish', img: 'ons_landing.png'},
+                {name: 'Верстка лэндинга Ozon New Skills', link: 'https://github.com/alexandrYun/ONS_landing', img: 'ons_landing.png'},
                 {name: 'Верстка Travel сайта', link: 'https://github.com/alexandrYun/travel_project', img: 'travel.png'},
                 {name: 'JavaScript будильник', link: 'https://github.com/alexandrYun/alarm_clock_project', img: 'alarm_clock.png'},
                 {name: 'JavaScript погода', link: 'https://github.com/alexandrYun/weather', img: 'weather.png'},
